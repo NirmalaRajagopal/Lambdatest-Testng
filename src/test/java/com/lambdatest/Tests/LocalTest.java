@@ -53,7 +53,7 @@ public class LocalTest {
   public static void test() {
     try {
       // verify local tunnel
-      driver.get("http://localhost:1500/api/v1.0/info");
+      driver.get("http://localhost:15000/api/v1.0/info");
       try {
         driver.findElement(By.xpath("//pre[contains(text(),'status\":\"SUCCESS')]"));
         status = "passed";

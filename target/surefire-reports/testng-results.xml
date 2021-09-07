@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-07T00:01:42Z" name="Lambdatest Suite" finished-at="2021-09-07T00:03:35Z" duration-ms="113499">
+    <groups>
+    </groups>
+    <test started-at="2021-09-07T00:01:42Z" name="Test1" finished-at="2021-09-07T00:02:08Z" duration-ms="25763">
+      <class name="com.lambdatest.Tests.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@498d318c]" started-at="2021-09-07T00:01:42Z" name="setUp" finished-at="2021-09-07T00:01:50Z" duration-ms="8372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[88.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test01()[pri:0, instance:com.lambdatest.Tests.ParallelTest@498d318c]" started-at="2021-09-07T00:01:50Z" name="test01" finished-at="2021-09-07T00:02:02Z" duration-ms="11386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:com.lambdatest.Tests.ParallelTest@498d318c]" started-at="2021-09-07T00:02:02Z" name="test02" finished-at="2021-09-07T00:02:07Z" duration-ms="5544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@498d318c]" started-at="2021-09-07T00:02:07Z" name="tearDown" finished-at="2021-09-07T00:02:08Z" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.Tests.ParallelTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2021-09-07T00:02:08Z" name="Test2" finished-at="2021-09-07T00:02:48Z" duration-ms="40431">
+      <class name="com.lambdatest.Tests.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@6356695f]" started-at="2021-09-07T00:02:08Z" name="setUp" finished-at="2021-09-07T00:02:18Z" duration-ms="10206" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MicrosoftEdge]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test01()[pri:0, instance:com.lambdatest.Tests.ParallelTest@6356695f]" started-at="2021-09-07T00:02:18Z" name="test01" finished-at="2021-09-07T00:02:37Z" duration-ms="19047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:com.lambdatest.Tests.ParallelTest@6356695f]" started-at="2021-09-07T00:02:37Z" name="test02" finished-at="2021-09-07T00:02:47Z" duration-ms="10147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@6356695f]" started-at="2021-09-07T00:02:47Z" name="tearDown" finished-at="2021-09-07T00:02:48Z" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.Tests.ParallelTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2021-09-07T00:02:48Z" name="Test3" finished-at="2021-09-07T00:03:05Z" duration-ms="17136">
+      <class name="com.lambdatest.Tests.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@a514af7]" started-at="2021-09-07T00:02:48Z" name="setUp" finished-at="2021-09-07T00:02:55Z" duration-ms="6647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[82.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test01()[pri:0, instance:com.lambdatest.Tests.ParallelTest@a514af7]" started-at="2021-09-07T00:02:55Z" name="test01" finished-at="2021-09-07T00:03:01Z" duration-ms="6073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:com.lambdatest.Tests.ParallelTest@a514af7]" started-at="2021-09-07T00:03:01Z" name="test02" finished-at="2021-09-07T00:03:05Z" duration-ms="3838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@a514af7]" started-at="2021-09-07T00:03:05Z" name="tearDown" finished-at="2021-09-07T00:03:05Z" duration-ms="577" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.Tests.ParallelTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2021-09-07T00:03:05Z" name="Test4" finished-at="2021-09-07T00:03:35Z" duration-ms="30137">
+      <class name="com.lambdatest.Tests.ParallelTest">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.lambdatest.Tests.ParallelTest@7b9a4292]" started-at="2021-09-07T00:03:05Z" name="setUp" finished-at="2021-09-07T00:03:13Z" duration-ms="7621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Internet Explorer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[11.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Windows 10]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="test01()[pri:0, instance:com.lambdatest.Tests.ParallelTest@7b9a4292]" started-at="2021-09-07T00:03:13Z" name="test01" finished-at="2021-09-07T00:03:26Z" duration-ms="13371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test01 -->
+        <test-method signature="test02()[pri:0, instance:com.lambdatest.Tests.ParallelTest@7b9a4292]" started-at="2021-09-07T00:03:26Z" name="test02" finished-at="2021-09-07T00:03:35Z" duration-ms="8944" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.lambdatest.Tests.ParallelTest@7b9a4292]" started-at="2021-09-07T00:03:35Z" name="tearDown" finished-at="2021-09-07T00:03:35Z" duration-ms="199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.lambdatest.Tests.ParallelTest -->
+    </test> <!-- Test4 -->
+  </suite> <!-- Lambdatest Suite -->
+</testng-results>
